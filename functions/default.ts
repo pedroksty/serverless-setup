@@ -1,7 +1,5 @@
 import { APIGatewayProxyHandler } from 'aws-lambda'
 
-const api = 'KJSDKJ'
-
 export const handle: APIGatewayProxyHandler = async event => {
   const data = event.body
 
